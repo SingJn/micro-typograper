@@ -1,7 +1,7 @@
 let attributeArray = ["font-size", "font-weight", "line-height", "letter-spacing", "word-spacing", "left-margin", "right-margin"];
 let computedAttributeArray = ["fontSize", "fontWeight", "lineHeight", "letterSpacing", "wordSpacing", "marginLeft", "marginRight"];
 
-let numFontSize = 23;
+let numFontSize = 27;
 let numFontWeight = 900;
 let numLineHeight = 35;
 let numLetterSpacing = 0;
