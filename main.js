@@ -24,15 +24,6 @@ function attributeCall() {
     }
 }
 
-var lastTouchEnd = 0;
-document.querySelectorAll("button").addEventListener('mouseup', function (event) {
-  var now = (new Date()).getTime();
-  if (now - lastTouchEnd <= 300) {
-    event.preventDefault();
-  }
-  lastTouchEnd = now;
-}, false);
-
 document.getElementById("button-plus-font-size").addEventListener("click", function() {
     numFontSize += 1;
     document.getElementById("paragraph").style.fontSize = numFontSize + "px";
