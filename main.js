@@ -1,13 +1,13 @@
 let attributeArray = ["font-size", "font-weight", "line-height", "letter-spacing", "word-spacing", "left-margin", "right-margin"];
 let computedAttributeArray = ["fontSize", "fontWeight", "lineHeight", "letterSpacing", "wordSpacing", "marginLeft", "marginRight"];
 
-let numFontSize = 10;
-let numFontWeight = 100;
-let numLineHeight = 18;
-let numLetterSpacing = 10;
-let numWordSpacing = 10;
-let numMarginLeft = 10;
-let numMarginRight = 10;
+let numFontSize = 23;
+let numFontWeight = 900;
+let numLineHeight = 35;
+let numLetterSpacing = 0;
+let numWordSpacing = 1;
+let numMarginLeft = 25;
+let numMarginRight = 25;
 
 window.onload = function() {
     attributeCall();
