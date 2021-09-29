@@ -1,0 +1,34 @@
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #0E0E0E;
+    color: #FFFFFF;
+    margin: 0px;
+    font-size: 12px;
+    text-align: center;
+}
+
+#container-title {
+    margin: 0 10%;
+    display: flex;
+    align-items: flex-start;
+}
+
+#container-adjust {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10%;
+}
+
+#container-adjust * {
+    margin: 0 10px;
+    display: flex;
+}
+
+#paragraph {
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 10px;
+    font-weight: 100;
+    word-spacing: 10px;
+    margin: 0px 10px;
+}
