@@ -31,13 +31,6 @@ document.getElementById("button-plus-font-size").addEventListener("click", funct
     attributeCall();
 })
 
-document.getElementById("button-plus-font-size").addEventListener("mousedown", function() {
-    numFontSize += 0.01;
-    document.getElementById("paragraph").style.fontSize = numFontSize + "px";
-    document.getElementById("paragraph").style.marginTop = numFontSize + "px";
-    attributeCall();
-})
-
 document.getElementById("button-minus-font-size").addEventListener("click", function() {
     numFontSize -= 1;
     document.getElementById("paragraph").style.fontSize = numFontSize + "px";
