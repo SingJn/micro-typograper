@@ -25,7 +25,7 @@ function attributeCall() {
 }
 
 var lastTouchEnd = 0;
-document.querySelectorAll("button").addEventListener('touchend', function (event) {
+document.querySelectorAll("button").addEventListener('mouseup', function (event) {
   var now = (new Date()).getTime();
   if (now - lastTouchEnd <= 300) {
     event.preventDefault();
